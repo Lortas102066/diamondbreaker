@@ -25,6 +25,7 @@ export default function Component() {
                 width={50}
                 height={50}
                 className="mr-2"
+                style={{ width: "auto", height: "auto" }}
               />
               <span className="font-bold text-lg">DBC</span>
             </div>
