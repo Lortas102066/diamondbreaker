@@ -21,7 +21,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/executives" className="hover:text-gray-900 transition-colors">
+                <Link href="/executive" className="hover:text-gray-900 transition-colors">
                   Executives
                 </Link>
               </li>
@@ -39,7 +39,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
             <Link 
-              href="https://www.instagram.com" 
+              href="https://www.instagram.com/diamond_breaker_club" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block hover:text-gray-900 transition-colors"
