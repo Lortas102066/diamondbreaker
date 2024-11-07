@@ -1,9 +1,8 @@
 "use client";
-import { FocusCards, Card } from '../components/ui/focus-cards';
+import { FocusCards} from './ui/focus-cards';
 import React, { useState } from 'react';
 
 export default function EventCard() {
-  const [hovered, setHovered] = useState<number | null>(null);
   const cards = [
     {
       title: "Event 1",
