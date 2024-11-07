@@ -1,8 +1,16 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 
+// Define the Card type for the card object
+type CardType = {
+  title: string;
+  src: string;
+  date: string;
+};
+
+// Use the CardType for the card prop in the component
 export const Card = React.memo(
   ({
     card,
@@ -10,7 +18,7 @@ export const Card = React.memo(
     hovered,
     setHovered,
   }: {
-    card: any;
+    card: CardType; // Updated from any to CardType
     index: number;
     hovered: number | null;
     setHovered: React.Dispatch<React.SetStateAction<number | null>>;
@@ -37,6 +45,9 @@ export const Card = React.memo(
       >
         <div className="text-xl md:text-2xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200">
           {card.title}
+          <div className="text-md bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200">
+            {card.date} {/* Display the date here */}
+          </div>
         </div>
       </div>
     </div>
@@ -45,12 +56,7 @@ export const Card = React.memo(
 
 Card.displayName = "Card";
 
-type Card = {
-  title: string;
-  src: string;
-};
-
-export function FocusCards({ cards }: { cards: Card[] }) {
+export function FocusCards({ cards }: { cards: CardType[] }) { // Use CardType here for type safety
   const [hovered, setHovered] = useState<number | null>(null);
 
   return (

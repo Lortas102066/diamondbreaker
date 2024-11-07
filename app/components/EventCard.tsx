@@ -1,6 +1,6 @@
 "use client";
 import { FocusCards} from './ui/focus-cards';
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function EventCard() {
   const cards = [
