@@ -1,4 +1,5 @@
-"use client";
+'use client'
+
 import Image from 'next/image'
 import { useRouter } from "next/navigation"
 
@@ -7,33 +8,34 @@ export default function Component() {
   const handleClick = () => {
     router.push("https://docs.google.com/forms/d/e/1FAIpQLSfdOD8TSZpCkxhMFBfBoxLAAulzIQry6R7dNF0PTWgf_m-sFA/viewform?fbclid=PAZXh0bgNhZW0CMTEAAaapUSdXg3q7NG9Muxvdge-31IuAuMX-NKCwmhp5bEG13hwED32AuwnQif8_aem_CwvYxZM0qVmXutCqjwgO_g");
   };
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#282828] px-4 py-12">
-      <div className="relative max-w-4xl w-full">
-        <div className="absolute inset-0 flex flex-col items-center justify-center z-10 space-y-4">
-          <p className="text-3xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 whitespace-nowrap">
+      <div className="relative w-full max-w-4xl mx-auto">
+        <div className="absolute inset-0 flex flex-col items-center justify-center z-10 space-y-4 p-4">
+          <p className="text-3xl sm:text-5xl md:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 text-center">
             Diamond Breaker Club
           </p>
-          <p className="text-xl md:text-2xl text-gray-300">
+          <p className="text-xl md:text-2xl text-gray-300 text-center">
             La Trobe University
           </p>
           <button 
-            className="shadow-[0_4px_14px_0_rgb(0,0,0,10%)] hover:shadow-[0_6px_20px_rgba(93,93,93,23%)] hover:bg-white hover:text-black px-8 py-2 bg-[#fff] text-[#696969] rounded-md font-bold transition duration-200 ease-linear text-2xl hover:scale-105"
+            className="shadow-[0_4px_14px_0_rgb(0,0,0,10%)] hover:shadow-[0_6px_20px_rgba(93,93,93,23%)] hover:bg-white hover:text-black px-8 py-2 bg-[#fff] text-[#696969] rounded-md font-bold transition duration-200 ease-linear text-lg sm:text-xl md:text-2xl hover:scale-105"
             onClick={handleClick}
           >
             Register Now
           </button>
         </div>
         
-        
-        <Image
-          src="/balls.png"
-          alt="Billiard balls arranged in triangle formation"
-          className="w-full h-auto opacity-25"
-          width={690}
-          height={444}
-          priority
-        />
+        <div className="relative w-full h-0 pb-[64%]">
+          <Image
+            src="/balls.png"
+            alt="Billiard balls arranged in triangle formation"
+            className="absolute top-0 left-0 w-full h-full object-cover opacity-25"
+            layout="fill"
+            priority
+          />
+        </div>
       </div>
     </div>
   )
