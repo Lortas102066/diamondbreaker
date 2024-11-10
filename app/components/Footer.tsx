@@ -31,8 +31,8 @@ export default function Footer() {
           {/* Contact Information */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
-            <p>Email: info@example.com</p>
-            <p>Phone: (123) 456-7890</p>
+            <p>Email: latrobedbc8@gmail.com</p>
+            <p>Phone: 0429275880</p>
           </div>
 
           {/* Social Media */}
@@ -51,7 +51,7 @@ export default function Footer() {
 
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold mb-2">Company Name</h3>
+            <h3 className="text-lg font-semibold mb-2">Diamond Breaker Club</h3>
             <p>© {new Date().getFullYear()} Company Name. All rights reserved.</p>
           </div>
         </div>

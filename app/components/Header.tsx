@@ -20,7 +20,7 @@ export default function Component() {
           <Link href={"/"}>
             <div className="flex items-center">
               <Image
-                src="/logo.jpg"
+                src="/logo1.png"
                 alt="Diamond Breaker Club Logo"
                 width={50}
                 height={50}
