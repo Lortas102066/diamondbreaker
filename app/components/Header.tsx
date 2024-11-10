@@ -26,7 +26,7 @@ export default function Component() {
                 height={50}
                 className="mr-2"
               />
-              <span className="font-bold text-lg">DBC</span>
+              <span className="font-bold text-lg">Diamond Breaker Club</span>
             </div>
           </Link>
           

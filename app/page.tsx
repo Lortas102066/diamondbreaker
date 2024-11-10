@@ -11,7 +11,7 @@ export default function Component() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#282828] px-4 py-12">
       <div className="relative max-w-4xl w-full">
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 space-y-4">
-          <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
+          <p className="text-3xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 whitespace-nowrap">
             Diamond Breaker Club
           </p>
           <p className="text-xl md:text-2xl text-gray-300">
