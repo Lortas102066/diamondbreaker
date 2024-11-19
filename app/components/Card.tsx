@@ -21,21 +21,21 @@ export default function Component({ people = [] }: { people?: Person[] }) {
       instagramHandle: "alice_codes"
     },
     {
-      name: "Bob Smith",
+      name: "Oliver Hu",
       role: "Vice President",
       email: "bob@example.com",
       imageUrl: "/placeholder.svg?height=200&width=200",
       instagramHandle: "bob_designs"
     },
     {
-      name: "Carol Williams",
+      name: "Arun Barbar(AB)",
       role: "Senior Secretary",
       email: "carol@example.com",
       imageUrl: "/placeholder.svg?height=200&width=200",
       instagramHandle: "carol_product"
     },
     {
-      name: "David Brown",
+      name: "Chee Duu",
       role: "General Secretary",
       email: "david@example.com",
       imageUrl: "/placeholder.svg?height=200&width=200",
