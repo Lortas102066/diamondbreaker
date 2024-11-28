@@ -16,30 +16,30 @@ export default function Component({ people = [] }: { people?: Person[] }) {
     {
       name: "Amal Ai Kapadia",
       role: "President",
-      email: "alice@example.com",
+      email: "latrobedbc8@gmail.com",
       imageUrl: "/placeholder.svg?height=200&width=200",
-      instagramHandle: "alice_codes"
+      instagramHandle: "amal_kapa_"
     },
     {
       name: "Oliver Hu",
       role: "Vice President",
-      email: "bob@example.com",
+      email: "latrobedbc8@gmail.com",
       imageUrl: "/placeholder.svg?height=200&width=200",
-      instagramHandle: "bob_designs"
+      instagramHandle: "Dabusi_xela"
     },
     {
       name: "Arun Barbar(AB)",
       role: "Senior Secretary",
-      email: "carol@example.com",
+      email: "latrobedbc8@gmail.com",
       imageUrl: "/placeholder.svg?height=200&width=200",
-      instagramHandle: "carol_product"
+      instagramHandle: "Neop60"
     },
     {
       name: "Chee Duu",
       role: "General Secretary",
-      email: "david@example.com",
+      email: "latrobedbc8@gmail.com",
       imageUrl: "/placeholder.svg?height=200&width=200",
-      instagramHandle: "david_data"
+      instagramHandle: "Ab_71zek"
     }
   ]
 
